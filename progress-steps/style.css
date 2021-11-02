@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    
+}
+
+.steps{
+    display: flex;
+    align-items: center;
+}
+.circle{
+    color: grey;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    border-radius: 50px;
+    border: 5px solid #CCCCCC;
+    transition: all 500ms ease;
+}
+.line{
+    height: 5px;
+    width: 80px;
+    background-color:#CCCCCC;
+}
+
+.colorline{
+    height: 5px;
+    width: 0px;
+    transition: width 500ms ease-in;
+}
+
+.colorline.active{
+    background-color: pink;
+    width: 80px;
+}
+
+.circle.active{
+    border-color: pink;
+}
+
+.btns{
+    text-align: center;
+}
+
+.btn{
+    background-color: pink;
+    font-size: 20px;
+    padding: 8px 20px;
+    margin: 50px 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.bnt:active{
+    transform: scale(0.98);
+}
+
+
+.notclick{
+    background-color: #CCCCCC;
+    cursor: not-allowed;
+}
+
+
