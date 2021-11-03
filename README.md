@@ -1,5 +1,12 @@
 ## HTML + CSS + JavaScript 练手的50个项目
 
+### 5. Blurry Loading
+
+* 2021/11/03
+* learn: 
+    1. filter: blur(px) 滤镜
+    2. setIntervel
+
 ### 4. Hidden-search-widget
 
 * 2021/11/03
