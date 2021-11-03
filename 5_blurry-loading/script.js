@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
     text.classList.add('load')
     let persent = 0
     setInterval(() => {
-        text.innerHTML = Math.floor((persent++) / 3) + "%";
+        text.innerHTML = (persent++) + "%";
 
-    }, 10);
+    }, 30);
 })
