@@ -1,5 +1,11 @@
 ## HTML + CSS + JavaScript 练手的50个项目
 
+### 4. Hidden-search-widget
+
+* 2021/11/03
+* learn:
+    1. classList.toggle
+
 ### 3. Rotating Nav Animation
 * start time: 2021/11/02
 * finish time: 2021/11/03
