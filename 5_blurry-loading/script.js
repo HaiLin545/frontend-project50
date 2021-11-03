@@ -8,8 +8,8 @@ window.addEventListener('load', () => {
     bg.classList.add('load')
     text.classList.add('load')
     let persent = 0
-    setInterval(() => {
-        text.innerHTML = (persent++) + "%";
-
-    }, 30);
+    let st = setInterval(() => {
+        text.innerHTML = (persent++) + "%"
+    }, 30)
+    if (persent > 100) clearInterval(st)
 })
