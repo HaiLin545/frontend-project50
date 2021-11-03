@@ -1,5 +1,13 @@
 ## HTML + CSS + JavaScript 练手的50个项目
 
+### 3. Rotating Nav Animation
+* start time: 2021/11/02
+* finish time: 2021/11/03
+* learn:
+    1. icon
+    2. rotate(x deg)
+    3. text-transform: uppercase
+
 
 ### 2. Progress Steps
 
