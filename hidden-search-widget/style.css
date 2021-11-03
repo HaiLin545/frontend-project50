@@ -1,3 +1,5 @@
+@import url('../font-awesome-4.7.0/css/font-awesome.min.css');
+
 *{
     margin: 0;
     padding: 0;
@@ -13,21 +15,40 @@ body{
 }
 
 .search-bar{
-    background: blue;
+    background: white;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
 }
 
-input{
+.input{
+    /* z-index: -1; */
     margin: 0;
+    width: 200px;
     height: 50px;
-    /* display: none; */
+    outline-style: none;
+    border: none;
+    padding: 5px 20px;
+    font-size: 22px;
+    transition: width 300ms linear;
 }
 
-button{
-    margin: 0;
+.input.hidden{
+    width: 0px;
+    padding: 0px;
+}
+
+.btn{
+    margin: 10px;
     width: 50px;
     height: 50px;
     border: none;
+    background: none;
     border-radius: 5px;
     cursor: pointer;
-    place-content: "Search..";
+}
+
+.fa{
+    font-size: 28px;
 }
