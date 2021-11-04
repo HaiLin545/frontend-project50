@@ -1,5 +1,11 @@
 ## HTML + CSS + JavaScript 练手的50个项目
 
+### 7. Split Landing Page
+* 2021/11/04
+* learn:
+    1. ::before 伪类 内部的伪类，比如说div::before, 它是div内部的一个元素
+
+
 ### 6. Scrolling Animation
 * 2021/11/04
 * learn
