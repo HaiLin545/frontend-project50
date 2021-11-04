@@ -1,5 +1,12 @@
 ## HTML + CSS + JavaScript 练手的50个项目
 
+### 6. Scrolling Animation
+* 2021/11/04
+* learn
+    1. getBoundingClientRect 获取相对于视窗的距离
+    2. event: scroll
+    3. nth-of-type(even)
+
 ### 5. Blurry Loading
 
 * 2021/11/03
