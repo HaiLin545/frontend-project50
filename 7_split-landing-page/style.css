@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.left{
+    
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-image: url('ps.jpg');
+}
+
+.left::before{
+   
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    background-color: rgba(30, 144 ,255, 0.5);
+}
+
+.right{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-image: url('xbox.jpg');
+}
+
+.right::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+h1{
+    z-index:1;
+    font-size: 60px;
+    color: white;
+    white-space: nowrap;
+    /* position: absolute; */
+}
+.card{
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: flex 1s ease;
+}
+
+.btn{
+    z-index:1;
+    margin: 20px;
+    text-transform: uppercase;
+    height: 70px;
+    width: 250px;
+    background: none;
+    color: white;
+    font-size: 20px;
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+.left-btn:hover{
+    border: none;
+    background-color: green;
+}
+
+.right-btn:hover{
+    border: none;
+    background-color: blueviolet;
+}
+
+.card:hover{
+    flex: 2.5;
+}
+
+@media (max-width:800px){
+    h1{
+        font-size: 30px;
+    }
+    .btn{
+        transform: scale(0.8);
+    }
+}
