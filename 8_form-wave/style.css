@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+}
+
+.container{
+    color: white;
+    background-color: rgb(0,0,0,0.3);
+    width: 450px;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px 0px;
+}
+
+
+.form-control{
+    /* background-color: red; */
+    position: relative;
+    margin-top: 50px;
+    font-size: 20px;
+    /* background-color: red; */
+
+}
+
+.form-control label {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);   
+}
+
+
+.form-control label span{
+    display: inline-block;
+    transition: transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+
+.form-control input:focus + label span,
+.form-control input:valid + label span{
+    color: bisque;
+    transform: translateY(-180%);
+}
+
+input{
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 350px;
+    padding: 10px 0px;
+    font-size: 20px;
+    color: white;
+    transition: all 500ms ease;
+}
+
+input:focus{
+    border-bottom-color:bisque;
+}
+
+h1{
+    /* background-color: blue; */
+    font-size: 30px;
+}
+
+.btn{
+    width: 350px;
+    height: 50px;
+    margin: 40px 0px;
+    outline: none;
+    border: none;
+    background-color: seashell;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration:none;
+    color: skyblue;
+}

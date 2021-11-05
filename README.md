@@ -1,5 +1,14 @@
 ## HTML + CSS + JavaScript 练手的50个项目
 
+### 8. Form Input Wave
+
+* 2021/11/05
+* learn:
+    1. 反引号 ``表示模板字符串 ${value
+    2. split, map, join
+    3. input:focus :valid
+    4. span默认是inline，不能定位， 可以修改为 inline-block 
+
 ### 7. Split Landing Page
 * 2021/11/04
 * learn:
