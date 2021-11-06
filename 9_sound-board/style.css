@@ -1,0 +1,27 @@
+
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border: 5px;
+    height: 80px;
+    width: 150px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
