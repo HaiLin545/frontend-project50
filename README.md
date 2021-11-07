@@ -1,10 +1,19 @@
 ## HTML + CSS + JavaScript 练手的50个项目
 
+
+### 9. Sound Board
+* 2021/11/05
+* learn:
+    1. audio
+    2. play() pause() currentTime 
+    4. document.createElement('tagName')
+    3. document.appendChild(element)
+
 ### 8. Form Input Wave
 
 * 2021/11/05
 * learn:
-    1. 反引号 ``表示模板字符串 ${value
+    1. 反引号 ``表示模板字符串 ${value}
     2. split, map, join
     3. input:focus :valid
     4. span默认是inline，不能定位， 可以修改为 inline-block 
