@@ -1,10 +1,16 @@
 ## HTML + CSS + JavaScript 练手的50个项目
 
+### 11 event keycodes
+* 2021/11/08
+* learn
+    1. keydown event
+    2. event.key event.keyCode event.code
+
 ### 10 dad jokes
 * 2021/11/07
 * learn
     1. fetch 请求和响应， xmlhttprequest的升级版
-    
+
 
 ### 9. Sound Board
 * 2021/11/05

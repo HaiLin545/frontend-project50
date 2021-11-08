@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tip{
+    margin: 20px;
+    padding: 10px 40px;
+    background-color:cadetblue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+}
+
+small{
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: cadetblue;
+}
