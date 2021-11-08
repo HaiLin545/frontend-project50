@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    border-style: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+
+.container{
+    width: 80vw;
+    max-width: 600px;
+    background-color: azure;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px grey;
+}
+
+.container h3{
+    font-size: 20px;
+    color:grey;
+    margin: 20px;
+}
+
+.container .joke{
+    margin: 20px;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    margin: 20px;
+    background-color: skyblue;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
