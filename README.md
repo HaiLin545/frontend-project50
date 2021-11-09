@@ -1,5 +1,10 @@
 ## HTML + CSS + JavaScript 练手的50个项目
 
+### 12 Faq collapse
+* 2021/11/09
+* learn:
+   nothing
+
 ### 11 event keycodes
 * 2021/11/08
 * learn

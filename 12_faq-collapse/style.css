@@ -1,0 +1,73 @@
+@import url('../font-awesome-4.7.0/css/font-awesome.min.css');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container h1{
+    color: blueviolet;
+    margin: 50px;
+}
+.faq{
+    position: relative;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    border: 1px solid skyblue;
+    margin: 20px;
+    max-width:600px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    transition: all 500ms ease;
+}
+
+.icon{
+    cursor: pointer;
+    margin: 30px;
+}
+
+.faq.show .icon .fa.fa-angle-down{
+    display: none;
+}
+.faq .icon .fa.fa-times-circle-o{
+    display: none;
+}
+.faq.show .icon .fa.fa-times-circle-o{
+    display: block;
+}
+.question{
+    margin: 30px;
+    font-size: 15px;
+}
+
+.faq.show{
+    background-color:darkcyan;
+    height: 200px;
+    box-shadow: 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.faq p{
+   display: none;
+   position: absolute;
+   bottom: 50px;
+   left: 50px;
+   color: yellow;
+}
+
+.faq.show p{
+    display: block;
+}
+
+.fa {
+    font-size: 30px;
+}
