@@ -1,5 +1,10 @@
 ## HTML + CSS + JavaScript 练手的50个项目
 
+### 13 random choice picker
+* 2021/11/10
+* learn:
+    nothing
+
 ### 12 Faq collapse
 * 2021/11/09
 * learn:
