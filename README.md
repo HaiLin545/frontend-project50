@@ -1,5 +1,12 @@
 ## HTML + CSS + JavaScript 练手的50个项目
 
+### 14 animated navigation
+* 2021/11/12
+* learn:
+    1. linear-gradient() 表示颜色线性渐变的图片
+    2. box-shadow: x-offset y-offset shadow-length opacity
+
+
 ### 13 random choice picker
 * 2021/11/10
 * learn:
