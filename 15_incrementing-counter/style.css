@@ -1,0 +1,44 @@
+@import url('../font-awesome-4.7.0/css/font-awesome.min.css');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    color: white;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+
+.fa{
+    font-size: 50px;
+    margin: 10px;
+}
+
+.num{
+
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+@media (max-width: 600px) {
+    body{
+        flex-direction: column;
+    }
+}
