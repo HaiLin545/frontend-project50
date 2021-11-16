@@ -1,5 +1,8 @@
 ## HTML + CSS + JavaScript 练手的50个项目
 
+## 16 Drink Water
+* 2021/11/16
+
 ### 15 Incrementing Counter
 * 2021/11/13
 
