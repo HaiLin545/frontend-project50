@@ -1,5 +1,8 @@
 ## HTML + CSS + JavaScript 练手的50个项目
 
+## 18 Background Slider
+* 2021/11/17
+
 ## 17 Movie App
 * 2021/11/17
 外网才能正常访问
