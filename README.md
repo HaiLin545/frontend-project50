@@ -1,5 +1,11 @@
 ## HTML + CSS + JavaScript 练手的50个项目
 
+## 19 Theme Clock
+* 2021/11/19
+* learn:
+    1. transform-origin transform 
+    2. new Date(): getSeconds,getMinutes, getHours,getDate, getDay, getMouth 
+
 ## 18 Background Slider
 * 2021/11/17
 
