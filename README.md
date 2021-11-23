@@ -1,5 +1,12 @@
 ## HTML + CSS + JavaScript 练手的50个项目
 
+## 21 Drag N Drop
+* 2021/11/23
+* learn: 
+  Event: 
+   item be dragged:  dragstart dragend
+   target :  dragover dragenter dragleave drop
+
 ## 20 Button Ripple Effect
 * 2021/11/22
 * learn:
