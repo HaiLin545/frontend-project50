@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#draw{
+    border: 1px solid blueviolet;
+}
+
+.toolbox{
+    border: 1px solid blueviolet;
+    background-color: cadetblue;
+    width: 502px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toolbox > *{
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+    margin: 5px;
+}

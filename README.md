@@ -1,5 +1,12 @@
 ## HTML + CSS + JavaScript 练手的50个项目
 
+## 22 Darw App
+* 2021/11/24
+* learn:
+    1. canvas
+    2. event: mousedown mouseup mousemove 
+    3. input type="color" event: change e.target.value 
+
 ## 21 Drag N Drop
 * 2021/11/23
 * learn: 
