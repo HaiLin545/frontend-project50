@@ -1,6 +1,8 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
-## 23
+## 23 Kinetic Loader
+
+- 2021/12/07
 
 ## 22 Darw App
 
@@ -24,7 +26,7 @@
 - learn:
   1. animation
   2. @keyframes name{
-  }
+     }
 
 ## 19 Theme Clock
 
