@@ -1,5 +1,12 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 24 Content Placeholder
+
+- 2021/12/09
+- learn:
+  1. object-fit
+  2. background-position background-size
+
 ### 23 Kinetic Loader
 
 - 2021/12/07
