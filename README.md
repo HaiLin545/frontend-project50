@@ -1,5 +1,13 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 25 Sticky Navbar
+
+- 2021/12/14
+- learn:
+  1. windows.addEventListener('scroll)
+  2. window.scrollY
+  3. window.innerHeight
+
 ### 24 Content Placeholder
 
 - 2021/12/09
