@@ -1,5 +1,9 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 26 Double Vertical Slider
+
+- 2021/12/19
+
 ### 25 Sticky Navbar
 
 - 2021/12/14
