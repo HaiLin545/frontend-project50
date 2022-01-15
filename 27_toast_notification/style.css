@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: cornflowerblue;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.notifications {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 20px;
+}
+
+.notification {
+  margin: 10px 0;
+  background-color: whitesmoke;
+  /* height: 20px; */
+  padding: 10px;
+}

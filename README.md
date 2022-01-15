@@ -1,5 +1,11 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 27 Toast Notification
+
+- 2022/1/15
+- learn:
+  1. parentNode.removeChild();
+
 ### 26 Double Vertical Slider
 
 - 2021/12/19
