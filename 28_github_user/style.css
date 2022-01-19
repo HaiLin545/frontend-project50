@@ -1,0 +1,72 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: slateblue;
+}
+
+#search {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 400px;
+  background-color: pink;
+  box-shadow: 5px 5px 5px black;
+}
+
+.card {
+  width: 800px;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: pink;
+  box-shadow: 5px 5px 5px black;
+}
+
+.loadingCard {
+  font-size: 20px;
+}
+
+.userCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userCard img {
+  width: 160px;
+  height: 160px;
+  border-radius: 160px;
+  border: 10px solid blanchedalmond;
+  margin-right: 50px;
+}
+
+#infos {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.info {
+  margin-right: 10px;
+}
+
+#repos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.repo {
+  display: inline-b10ock;
+  text-decoration: none;
+  color: white;
+  background-color: blueviolet;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
