@@ -1,0 +1,39 @@
+@import url(../font-awesome-4.7.0/css/font-awesome.min.css);
+
+img {
+  width: 1000px;
+  box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.5);
+}
+
+#container {
+  position: relative;
+  /* width: fit-content;
+  height: fit-content; */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-heart {
+  color: red;
+}
+
+#container .heart {
+  /* display: block; */
+  z-index: 999;
+  position: absolute;
+  transform: translate(-50%, -50%) scale(0);
+  font-size: 50px;
+  animation: grow 1s linear;
+}
+
+@keyframes grow {
+  to {
+    transform: translate(-50%, -50%) scale(2);
+    opacity: 0;
+  }
+}
