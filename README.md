@@ -1,5 +1,21 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 30 auto text effect
+
+-2022/1/20
+
+### 29 double click heart
+
+- 2022/1/19
+- learn
+  1. dblclick event
+
+### 28 github user
+
+- 2022/1/19
+- learn
+  1.  axios
+
 ### 27 Toast Notification
 
 - 2022/1/15
