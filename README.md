@@ -1,5 +1,11 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 31 Password Generator
+
+- 2022//1/22
+- learn:
+  1. document.execCommand(copy)
+
 ### 30 auto text effect
 
 -2022/1/20
