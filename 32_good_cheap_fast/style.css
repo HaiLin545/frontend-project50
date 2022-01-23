@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.option {
+  font-size: 25px;
+  margin: 20px;
+  display: flex;
+  position: relative;
+  width: 300px;
+  align-items: center;
+}
+
+.option input {
+  visibility: hidden;
+}
+
+label {
+  width: 100px;
+  height: 50px;
+  background-color: #ccc;
+  position: relative;
+  margin: 0 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+label .ball {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: white;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+  animation: unchecked 500ms linear;
+}
+
+label.checked {
+  background-color: cornflowerblue;
+}
+
+label.checked .ball {
+  /* top: 50%; */
+  left: 55px;
+  animation: checked 300ms linear;
+}
+
+@keyframes checked {
+  0% {
+    left: 5px;
+    height: 40px;
+    width: 40px;
+  }
+  50% {
+    left: 30px;
+    height: 50px;
+    width: 50px;
+  }
+  100% {
+    left: 50px;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@keyframes unchecked {
+  0% {
+    left: 50px;
+    height: 40px;
+    width: 40px;
+  }
+  50% {
+    left: 30px;
+    height: 50px;
+    width: 50px;
+  }
+  100% {
+    left: 5px;
+    height: 40px;
+    width: 40px;
+  }
+}

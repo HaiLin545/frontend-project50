@@ -1,8 +1,15 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 32 Good, Cheap and Fast
+
+- 2022/1/23
+- learn:
+  1. 动画，在进入选择器的时候播放
+  2. input 和 label 相关联
+
 ### 31 Password Generator
 
-- 2022//1/22
+- 2022/1/22
 - learn:
   1. document.execCommand(copy)
 
