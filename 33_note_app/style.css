@@ -1,0 +1,92 @@
+@import url(../font-awesome-4.7.0/css/font-awesome.min.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: darkgoldenrod;
+  display: flex;
+  justify-content: center;
+}
+
+#notes {
+  margin-top: 100px;
+  padding: 20px;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  width: 90%;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 80px;
+}
+
+.note {
+  display: inline-block;
+  vertical-align: top;
+  background-color: darkslateblue;
+  width: 400px;
+  height: 400px;
+}
+
+.bar {
+  height: 50px;
+  background-color: cadetblue;
+  text-align: end;
+  line-height: 50px;
+}
+
+.bar i {
+  margin-right: 20px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.txt textarea.active {
+  border: none;
+  outline: none;
+  font-size: 24px;
+  height: 380px;
+}
+
+.txt textarea {
+  padding: 10px 20px;
+  resize: none;
+  font-size: 20px;
+  width: 360px;
+  height: 350px;
+  border: none;
+}
+
+.txt textarea:disabled {
+  background-color: white;
+}
+.txt textarea:hover {
+  cursor: default;
+}
+
+#add {
+  width: 120px;
+  height: 50px;
+  background-color: chartreuse;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  margin: 20px;
+  transform: translateX(-50%);
+}
+
+#add:hover {
+  background-color: darkseagreen;
+}
+#add i {
+  font-size: 20px;
+}

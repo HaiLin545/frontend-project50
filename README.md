@@ -1,5 +1,12 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 33 Note App
+
+- 2022/1/23
+- learn:
+  1. child vs. elementChild
+  2. node.focus()
+
 ### 32 Good, Cheap and Fast
 
 - 2022/1/23
