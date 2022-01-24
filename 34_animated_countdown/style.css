@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#count {
+  width: 200px;
+  text-align: center;
+}
+
+#count #nums {
+  /* background-color: burlywood; */
+  width: 200px;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+}
+
+#count #nums div {
+  position: absolute;
+  font-size: 60px;
+  height: 100px;
+  width: 50px;
+  top: 0px;
+  left: 75px;
+  color: skyblue;
+  transform-origin: bottom;
+  transform: rotate(90deg);
+  animation: countdown 1s ease-in-out;
+}
+
+#go {
+  display: none;
+  text-align: center;
+}
+
+#btn {
+  font-size: 18px;
+  padding: 5px;
+  margin: 20px;
+  cursor: pointer;
+  background-color: skyblue;
+}
+
+@keyframes countdown {
+  0% {
+    transform: rotate(90deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(10deg);
+  }
+  45% {
+    transform: rotate(0deg);
+  }
+  90% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}

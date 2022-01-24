@@ -1,5 +1,9 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 34 Animated Countdown
+
+- 2022/1/24
+
 ### 33 Note App
 
 - 2022/1/23
