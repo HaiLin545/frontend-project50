@@ -1,5 +1,9 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 35 Img Carousel
+
+- 2022/1/26
+
 ### 34 Animated Countdown
 
 - 2022/1/24

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.carousel {
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.img-container {
+  display: flex;
+  transition: 500ms ease-in-out;
+}
+
+.item {
+  height: 570px;
+  width: 100%;
+}
+
+.item img {
+  width: 600px;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+}
+
+.btns {
+  display: flex;
+}
+
+.btn {
+  flex: 1;
+  text-align: center;
+  background-color: blueviolet;
+  height: 30px;
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  cursor: pointer;
+}
