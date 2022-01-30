@@ -1,5 +1,9 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 36 Hover Board
+
+- 2022/1/30
+
 ### 35 Img Carousel
 
 - 2022/1/26
