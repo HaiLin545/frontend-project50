@@ -1,5 +1,9 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 37 Pokedex
+
+- 2022/1/30
+
 ### 36 Hover Board
 
 - 2022/1/30

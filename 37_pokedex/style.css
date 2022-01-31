@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    rgb(212, 211, 221),
+    rgb(239, 239, 187)
+  );
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* background-color: cadetblue; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokemon {
+  width: 220px;
+  height: 360px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.img-container {
+  width: 180px;
+  height: 180px;
+  border-radius: 180px;
+  background-color: #eee;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+  letter-spacing: 1px;
+}
+.number {
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  border-radius: 5px;
+}
+.name {
+  font-size: 25px;
+  margin: 10px 0;
+}
+.type {
+  font-size: 20px;
+}
