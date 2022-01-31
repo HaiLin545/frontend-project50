@@ -1,5 +1,9 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 39 Password Strength Background
+
+- 2022/1/3
+
 ### 38 Mobile Tab Navigation
 
 - 2022/1/31
