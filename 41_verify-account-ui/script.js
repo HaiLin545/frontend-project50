@@ -17,4 +17,10 @@ codes.forEach((code, idx) => {
             }
         }
     });
+    code.addEventListener("input", (e) => {
+        const flag = e.target.value >= 0 && e.target.value <= 9;
+        if (!flag) {
+            e.target.value = "";
+        }
+    });
 });
