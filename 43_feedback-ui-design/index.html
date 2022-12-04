@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>feedback-ui-design</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="before">
+                <h2>How satisfied are you with our <br />customer support performance?</h2>
+                <div class="faces">
+                    <div class="face">
+                        <img src="./imgs/1.png" alt="Unhappy" />
+                        <p>Unhappy</p>
+                    </div>
+                    <div class="face">
+                        <img src="./imgs/2.png" alt="Neutral" />
+                        <p>Neutral</p>
+                    </div>
+                    <div class="face">
+                        <img src="./imgs/3.png" alt="Satisfied" />
+                        <p>Satisfied</p>
+                    </div>
+                </div>
+                <button class="btn">Send Review</button>
+            </div>
+            <div class="after hide">
+                <i class="fa fa-heart"></i>
+                <p>Thank You!</p>
+                <p>Feedback: &nbsp;<span id="feedback-result"></span></p>
+                <div class="tip">
+                    We'll use your feedback to improve our<br />
+                    customer support
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
