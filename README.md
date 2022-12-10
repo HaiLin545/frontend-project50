@@ -1,5 +1,11 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 44 Custom Range Slider
+
+-   2022/12/10
+-   learn:
+    1. 自定义 input range 的样式
+
 ### 43 Feedback UI Design
 
 -   2022/12/04
