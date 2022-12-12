@@ -1,0 +1,99 @@
+@import url(../font-awesome-4.7.0/css/font-awesome.min.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+main{
+    text-align: center;
+}
+
+main img{
+    width: 250px;
+    margin: 10px;
+}
+
+main p{
+    font-size: 20px;
+}
+
+navigator {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.fa-bars {
+    font-size: 24px;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.page{
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: translateX(-100%);
+    transition: ease-in-out 300ms;
+}
+
+.page.show{
+    transform: translateX(0%);
+}
+
+.p1 {
+    width: 600px;
+    max-width: 50vw;
+    background-color: #211f1f;
+    color: black;
+}
+
+.p2 {
+    width: 95%;
+    background-color: #d22f27;
+}
+
+.p3 {
+    width: 95%;
+    background-color: #ffffff;
+}
+
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: black;
+    font-size: 24px;
+}
+
+.p3 img{
+    width: 300px;
+}
+
+.p3 li {
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 20px 20px;
+}
+
+.submenu {
+    margin-left: 40px;
+}

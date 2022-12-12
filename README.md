@@ -1,5 +1,9 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 45 Netflix Mobile Navigation
+
+-   2022/12/12
+
 ### 44 Custom Range Slider
 
 -   2022/12/10
