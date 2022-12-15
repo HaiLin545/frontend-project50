@@ -1,5 +1,9 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 47 Testimonial Box Switcher
+
+-   2022/12/15
+
 ### 46 Quiz App
 
 -   2022/12/14

@@ -1,0 +1,89 @@
+@import url(../font-awesome-4.7.0/css/font-awesome.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box{
+    background-color: #4f6bdc;
+    width: 800px;
+    max-width: 90vw;
+    border-radius: 20px;   
+    font-family:'Lucida Sans';
+    padding: 40px;
+    color: white;
+    letter-spacing: 2px;
+    display: flex;
+}
+
+.center{
+    margin: 0 20px;
+}
+
+.intro{
+    line-height: 150%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;   
+}
+
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.user-info{
+    margin-left: 10px;
+    font-size: 22px;
+}
+.position {
+    margin-top: 10px;
+}
+
+.quote{
+    margin-top: 10px;
+}
+
+.fa{
+    color: #8498e7;
+    font-size: 40px;
+}
+
+.progress-bar{
+    width: 0;
+    height: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    animation-name: bar;
+    animation-timing-function: linear;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bar {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
