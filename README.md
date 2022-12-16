@@ -1,5 +1,9 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 48 Random Img Feed
+
+-   2022/12/16
+
 ### 47 Testimonial Box Switcher
 
 -   2022/12/15
