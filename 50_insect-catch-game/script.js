@@ -17,7 +17,7 @@ let tot_time = 0;
 let tot_score = 0;
 
 start_btn.addEventListener("click", (e) => {
-    console.log("click start btn");
+    // console.log("click start btn");
     container.classList.add("to-menu");
 });
 

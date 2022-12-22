@@ -36,14 +36,14 @@ function setStorage() {
             deleted: todo.classList.contains("delete"),
         });
     });
-    console.log("set storage", todos);
+    // console.log("set storage", todos);
     localStorage.setItem("todos", JSON.stringify(todos));
 }
 
 function getStorage() {
     try {
         const todos = JSON.parse(localStorage.getItem("todos"));
-        console.log("get storage", todos);
+        // console.log("get storage", todos);
         todos.forEach((todo) => {
             const item = document.createElement("li");
             item.innerText = todo.name;

@@ -1,0 +1,79 @@
+@import url(../font-awesome-4.7.0/css/font-awesome.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:cadetblue;
+    /* height: 100vh; */
+    overflow-x: hidden;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.title{
+    text-align: center;
+    margin: 80px 0;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 480px);
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.proj-item .frame-box{
+    width: 480px;
+    height: 270px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    background-color:white;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+}
+
+.frame-box:hover .mask{
+    display: block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+}
+
+.mask p{
+    line-height: 50px;
+}
+.mask .fa{
+    font-size: 60px;
+    color: white;
+}
+
+.proj-item  iframe{
+    width: 1920px;
+    height: 1080px;
+    transform-origin: left top;
+    transform: scale(0.25);
+    overflow: hidden;
+    outline: none;
+    border: none;
+    pointer-events: none;
+}
+.proj-item p {
+    text-align: center;
+    font-size: 24px; 
+    margin-bottom: 20px;
+}

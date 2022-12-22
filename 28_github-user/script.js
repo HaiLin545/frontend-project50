@@ -1,26 +1,22 @@
+const APIURL = "https://api.github.com/users/";
 
-const APIURL = 'https://api.github.com/users/'
+const search = document.querySelector("#search");
+const main = document.querySelector("main");
 
-const search = document.querySelector('#search');
-const main = document.querySelector('main');
+const loadingCard = document.createElement("div");
+loadingCard.classList.add("card");
+loadingCard.classList.add("loadingCard");
+loadingCard.innerText = "Loading...";
 
-const loadingCard = document.createElement('div');
-loadingCard.classList.add('card');
-loadingCard.classList.add('loadingCard');
-loadingCard.innerText = 'Loading...';
-
-search.addEventListener('change', (e) => {
+search.addEventListener("change", (e) => {
     e.preventDefault();
     let val = search.value;
     if (val) {
         main.removeChild(main.firstChild);
         getUser(val);
-        search.value = '';
-        console.log(123);
+        search.value = "";
     }
-})
-
-
+});
 
 async function getUser(userId) {
     main.appendChild(loadingCard);
@@ -30,26 +26,25 @@ async function getUser(userId) {
         getRepos(userId);
     } catch (err) {
         if (err.response.status == 404) {
-            createErrorCard(`The user '${userId}' is not exist!`)
+            createErrorCard(`The user '${userId}' is not exist!`);
         }
     }
 }
 
 async function getRepos(username) {
     try {
-        const { data } = await axios(APIURL + username + '/repos?sort=created')
+        const { data } = await axios(APIURL + username + "/repos?sort=created");
         addRepos(data);
     } catch (err) {
-        createErrorCard('Problem fetching repos!');
+        createErrorCard("Problem fetching repos!");
     }
 }
 
-
 function addRepos(data) {
-    const repos = document.querySelector('#repos');
+    const repos = document.querySelector("#repos");
     for (let i = 0; i < data.length; i++) {
-        const repo = document.createElement('a');
-        repo.classList.add('repo');
+        const repo = document.createElement("a");
+        repo.classList.add("repo");
         repo.href = data[i].html_url;
         repo.innerHTML = data[i].name;
         repos.appendChild(repo);
@@ -57,7 +52,7 @@ function addRepos(data) {
 }
 
 function createUserCard(data) {
-    const userCard = document.createElement('div');
+    const userCard = document.createElement("div");
     userCard.innerHTML = `
     <div class="card userCard">
     <div id='avatar'>
@@ -81,10 +76,9 @@ function createUserCard(data) {
 }
 
 function createErrorCard(text) {
-    const errorCard = document.createElement('div');
-    errorCard.classList.add('card');
+    const errorCard = document.createElement("div");
+    errorCard.classList.add("card");
     errorCard.innerText = text;
     main.removeChild(loadingCard);
     main.appendChild(errorCard);
 }
-

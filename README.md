@@ -1,5 +1,20 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+## Introduce
+
+-   该项目完全按照https://github.com/bradtraversy/50projects50days的顺序与页面来完成。本人预览原版页面后，先自行编写，再参考源码进行补充修正，所以很多代码与原版有出入。
+
+## Entry
+
+-   ./entry 用于预览 project 50 的所有页面
+-   使用方法：
+    1. node 运行./entry/server.js
+    2. 打开./entry/index.html
+
+## Log
+
+-   完成日期以及部分学习记录
+
 ### 50 Insect Catch Game
 
 -   2022/12/22

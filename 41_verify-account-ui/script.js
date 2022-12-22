@@ -1,6 +1,6 @@
 const codes = document.querySelectorAll("input");
 
-codes[0].focus();
+// codes[0].focus();
 
 codes.forEach((code, idx) => {
     code.addEventListener("keydown", (e) => {
