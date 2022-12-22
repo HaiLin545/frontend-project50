@@ -1,5 +1,9 @@
 ## HTML + CSS + JavaScript 练手的 50 个项目
 
+### 50 Insect Catch Game
+
+-   2022/12/22
+
 ### 49 Todo List
 
 -   2022/12/18
